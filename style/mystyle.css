@@ -1,0 +1,52 @@
+body {
+    font-family: Arial;
+    font-size: 0.80em;
+}
+
+#viewport {
+    width: 100%;
+}
+
+div {
+    display: block;
+}
+
+#topNavigation {
+    margin-top: 1%;
+}
+
+#topNavigation li{
+    display: inline;
+    float: right;
+    padding: 0.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.noPadding {
+    padding: 0;
+}
+
+#apps {
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    background: url("../images/icons.PNG") -137px -37px;
+    opacity: 10%;
+}
+
+#logo{
+    clear: both;
+}
+
+#dummy {
+    width:100%;
+    height: 50px;
+    background-image: url("../images/icons.png");
+}
