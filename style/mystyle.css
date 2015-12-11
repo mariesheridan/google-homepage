@@ -52,22 +52,21 @@ div {
     min-height: 100%;
 }
 
-#apps {
+#apps  div{
     /*background: url("../images/icons.PNG") -132px -38px;*/
-    opacity: 10%;
     background-image: url("../images/icons.PNG");
     background-position: -132px -38px;
 }
 
-#notif {
-    background-color: black;
+#notif div{
+    background-color: gray;
     background-image: url("../images/icons.PNG");
     background-position: -197px -20px;
     border-radius: 50%;
     background-origin: content-box;
 }
 
-#profilePic {
+#profilePic div{
     background-image: url("../images/profilePic.JPG");
     border-radius: 50%;
 }
@@ -84,7 +83,6 @@ div {
     height: 100px;
     width: 275px;
     position: relative;
-    /*top: 50%;*/
     left: 40%;
 }
 
