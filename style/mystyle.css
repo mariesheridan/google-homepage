@@ -13,31 +13,32 @@ div {
 }
 
 #topNavigation {
-    margin-top: 1%;
-    list-style-position: inside;
+    height: 100%;
 }
 
 #topNavigation li{
     display: inline;
     float: right;
     margin-right: 1.5%;
+    height: 100%;
+    position: relative;
 }
 
 #topNavigationBar {
     display: block;
     clear: both;
     margin: 2%;
-    position: relative;
+    height: 2.5em;
 }
 
 .text {
-    vertical-align: middle;
     color: gray;
+    position: relative;
+    top: 25%;
 }
 
 .text a {
     text-decoration: none;
-    margin-right: 50%;
     color: black;
 }
 
@@ -53,9 +54,9 @@ div {
 
 #apps {
     /*background: url("../images/icons.PNG") -132px -38px;*/
+    opacity: 10%;
     background-image: url("../images/icons.PNG");
-    background-position: -200% -50%;
-    max-width: 100%;
+    background-position: -132px -38px;
 }
 
 #notif {
@@ -79,3 +80,6 @@ div {
     clear: both;
 }
 
+li div{
+    min-height: 100%;
+}
