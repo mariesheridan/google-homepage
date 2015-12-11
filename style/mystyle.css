@@ -5,7 +5,7 @@ body {
 
 #viewport {
     max-width: 100%;
-    margin: 2%;
+    margin: 2% 0 2% 0;
 }
 
 div {
@@ -19,7 +19,7 @@ div {
 #topNavigation li{
     display: inline;
     float: right;
-    margin-right: 1.5%;
+    margin-left: 1.5%;
     height: 100%;
     position: relative;
 }
@@ -52,18 +52,38 @@ div {
     min-height: 100%;
 }
 
+#apps {
+    opacity: 0.5;
+}
+
+#apps:hover {
+    opacity: 1;
+}
+
 #apps  div{
     /*background: url("../images/icons.PNG") -132px -38px;*/
     background-image: url("../images/icons.PNG");
     background-position: -132px -38px;
 }
 
-#notif div{
+#notif {
     background-color: gray;
+    border-radius: 50%;
+}
+
+#notif:hover{
+    background-color: black;
+    border-radius: 50%;
+}
+
+#notif  div{
+    width: 15px;
+    height: 15px;
     background-image: url("../images/icons.PNG");
     background-position: -197px -20px;
-    border-radius: 50%;
-    background-origin: content-box;
+    position: relative;
+    top: 6px;
+    left: 8px;
 }
 
 #profilePic div{
@@ -93,4 +113,3 @@ div {
 li div{
     min-height: 100%;
 }
-
