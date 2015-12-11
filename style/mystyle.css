@@ -4,7 +4,7 @@ body {
 }
 
 #viewport {
-    width: 100%;
+    max-width: 100%;
     margin: 2%;
 }
 
@@ -74,6 +74,13 @@ div {
 
 #logo{
     clear: both;
+    margin-top: 10%;
+}
+
+#googleLogo {
+    position: relative;
+    top: 50%;
+    left: 40%;
 }
 
 .spacer {
@@ -82,4 +89,12 @@ div {
 
 li div{
     min-height: 100%;
+}
+
+#Australia {
+    color: #4285F4;
+    font-size: 1.25em;
+    position: relative;
+    left: 58%;
+    top: 30%;
 }
