@@ -183,6 +183,13 @@ input {
     font-size: 1em;
     background-color: #f2f2f2;
     color: #737373;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+#buttonsContainer div:hover{
+    border: 1px solid #b3b3b3;
+    color: black;
 }
 
 #button1 {
