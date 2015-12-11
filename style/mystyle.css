@@ -74,12 +74,17 @@ div {
 
 #logo{
     clear: both;
-    margin-top: 10%;
+    padding-top: 10%;
 }
 
 #googleLogo {
+    background-image: url("../images/googleLogo.png");
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100px;
+    width: 275px;
     position: relative;
-    top: 50%;
+    /*top: 50%;*/
     left: 40%;
 }
 
@@ -91,10 +96,3 @@ li div{
     min-height: 100%;
 }
 
-#Australia {
-    color: #4285F4;
-    font-size: 1.25em;
-    position: relative;
-    left: 58%;
-    top: 30%;
-}
