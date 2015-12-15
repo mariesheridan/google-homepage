@@ -22,19 +22,22 @@ div {
 
 #topNavigation li{
     display: inline;
-    float: right;
-    margin-left: 1.5%;
+    float: left;
+    margin-left: 15px;
     height: 100%;
     position: relative;
 }
 
 #topNavigationBar {
+    position: fixed;
+    top: 0;
+    right: 0;
     display: block;
-    width: 95%;
-    position: relative;
+    width: 350px;
     clear: both;
-    margin: 2%;
+    float: right;
     height: 30px;
+    margin: 2% 2% 0 0;
 }
 
 .text {
@@ -98,23 +101,13 @@ div {
 
 #logo{
     clear: both;
-    margin: 150px auto 0 auto;
+    margin: 200px auto 0 auto;
     height: 100px;
     background-image: url("../images/googleLogo.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
-
-/*#googleLogo {
-    background-image: url("../images/googleLogo.png");
-    background-repeat: no-repeat;
-    margin: 0;
-    height: 100px;
-    width: 275px;
-    position: relative;
-    left: 41%;
-}*/
 
 .spacer {
     clear: both;
@@ -214,6 +207,7 @@ input {
 }
 
 #footerLeft {
+    height: 50%;
     float: left;
 }
 
@@ -229,6 +223,7 @@ input {
 }
 
 #footerRight {
+    height: 50%;
     float: right;
 }
 
