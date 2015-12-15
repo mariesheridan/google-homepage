@@ -30,9 +30,11 @@ div {
 
 #topNavigationBar {
     display: block;
+    width: 95%;
+    position: relative;
     clear: both;
     margin: 2%;
-    height: 2.5em;
+    height: 30px;
 }
 
 .text {
@@ -96,7 +98,7 @@ div {
 
 #logo{
     clear: both;
-    margin: 100px auto 0 auto;
+    margin: 150px auto 0 auto;
     height: 100px;
     background-image: url("../images/googleLogo.png");
     background-repeat: no-repeat;
@@ -198,4 +200,42 @@ input {
 
 #button2 {
     float: right;
+}
+
+#footer {
+    height: 40px;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e6e6e6;
+    position: fixed;
+    bottom: 0;
+    font-size: 1em;
+    color: #737373;
+}
+
+#footerLeft {
+    float: left;
+}
+
+#footer li {
+    display: inline;
+    float: left;
+    margin: 0 15px 0 15px;
+}
+
+#footer div{
+    position: relative;
+    top: 35%;
+}
+
+#footerRight {
+    float: right;
+}
+
+#footerLeft {
+    margin-left: 15px;
+}
+
+#footerRight {
+    margin-right: 15px;
 }
