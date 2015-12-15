@@ -28,7 +28,7 @@ div {
 }
 
 #topNavigationBar {
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     display: block;
@@ -105,7 +105,7 @@ a:hover {
 
 #logo{
     clear: both;
-    margin: 200px auto 0 auto;
+    margin: 15% auto 0 auto;
     height: 100px;
     background-image: url("../images/googleLogo.png");
     background-repeat: no-repeat;
