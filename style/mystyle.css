@@ -45,13 +45,15 @@ div {
     position: relative;
     top: 25%;
 }
-
 .text a {
-    text-decoration: none;
     color: black;
 }
 
-.text a:hover {
+.text a, #footer a {
+    text-decoration: none;
+}
+
+.text a:hover, #footer a:hover {
     text-decoration: underline;
 }
 
@@ -203,6 +205,10 @@ input {
     position: fixed;
     bottom: 0;
     font-size: 1em;
+    color: #737373;
+}
+
+#footer a {
     color: #737373;
 }
 
